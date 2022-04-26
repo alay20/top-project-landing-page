@@ -3,19 +3,18 @@
 body {
     font-family: Roboto, sans-serif;
     display: flex;
-    flex-direction: column;
     margin: 0px;
 }
 
-.header {
+.header-left {
     background-color: #1F2937;
     display: flex;
-    flex: 1;
+    flex-direction: column;
+    flex: 1 1;
     font-size: 24px;
     font-weight: 900;
     padding-left: 175px;
-    padding-top: 10px;
-    align-items: center;
+    padding-top: 20px;
     color: #F9FAF8
 }
 
@@ -32,27 +31,27 @@ ul {
     flex: 1;
     justify-content: flex-end;
     gap: 20px;
-    padding-right: 50px;
+    padding-right: 75px;
 }
 
-.container1 {
+.header-right {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    flex: 1 1;
+
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: bolder;
     width: 400px;
-    padding-left: 175px;
     margin-top: 75px;
     color: #F9FAF8
 }
 
 .hero-second {
     font-size: 18px;
-    padding-left: 175px;
     width: 400px;
     color: #E5E7EB;
 }
@@ -64,11 +63,18 @@ button {
     font-size: 16px;
     font-weight: bold;
     color: white;
-    width: 145px;
-    margin-left: 175px; 
+    width: 145px; 
     margin-top: 10px;
   }
   
 button.signup1 {
   border: 1px solid #3882F6;;
+}
+
+.subaru-brz {
+    align-self: flex-end;
+    width: 450px;
+    margin-top: 57px;
+    margin-right: 75px;
+    margin-bottom: 75px;
 }
