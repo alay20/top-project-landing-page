@@ -71,7 +71,12 @@ button {
   }
   
 button.signup1 {
-  border: 1px solid #3882F6;;
+  border: 1px solid #3882F6;
+}
+
+button.signup2 {
+    border: 2px solid #E5E7EB;
+    margin-left: 150px;
 }
 
 .subaru-brz {
@@ -149,6 +154,9 @@ button.signup1 {
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     border: 4px solid #3882F6;
     background-color: #3882F6; 
@@ -163,7 +171,17 @@ button.signup1 {
     color: #F9FAF8
 }
 
-.signup {
+.action2 {
     font-size: 18px;
     color: #F9FAF8
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
